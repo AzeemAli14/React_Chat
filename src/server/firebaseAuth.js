@@ -11,24 +11,14 @@ import Cookie from "universal-cookie";
 const cookie = new Cookie();
 
 // Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: process.env.FIREBASE_APIKEY,
-//   authDomain: process.env.FIREBASE_AUTHDOMAIN,
-//   projectId: process.env.FIREBASE_PROJECTID,
-//   storageBucket: process.env.FIREBASE_STORAGEBUCKET,
-//   messagingSenderId: process.env.FIREBASE_MESSAGING_SENDERID,
-//   appId: process.env.FIREBASE_AUTHID,
-//   measurementId: process.env.FIREBASE_MEASUREMENTID,
-// };
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAiABSBU6M8wqb2BqKSDm9t9vSbIZ3uofw",
-  authDomain: "react-chat-42101.firebaseapp.com",
-  projectId: "react-chat-42101",
-  storageBucket: "react-chat-42101.appspot.com",
-  messagingSenderId: "108020444719",
-  appId: "1:108020444719:web:578dfc420939da6333e0da",
-  measurementId: "G-6JHE4PM17H"
+  apiKey: process.env.FIREBASE_APIKEY,
+  authDomain: process.env.FIREBASE_AUTHDOMAIN,
+  projectId: process.env.FIREBASE_PROJECTID,
+  storageBucket: process.env.FIREBASE_STORAGEBUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDERID,
+  appId: process.env.FIREBASE_AUTHID,
+  measurementId: process.env.FIREBASE_MEASUREMENTID,
 };
 
 export const app = initializeApp(firebaseConfig);
